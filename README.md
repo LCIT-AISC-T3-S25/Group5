@@ -7,3 +7,4 @@
 | Moksh Jaiswal    | Part B Q4.        | Found out the change in word frequencies when normalization is done after stop word removal.             |
 | Mukul Garg       | Part B Q1,Q2      |                                                                                                          |
 | Adarsh Pednekar  | Part B Q3, A Q1   |                                                                                                          |
+| Gokul Krishna    | Part A Q10        |  Find all urls across the tweets                                                                         |
