@@ -15,3 +15,5 @@
 |                   |                   | 7. How many records have a new line?                                                                     |
 |Thejaswee Badepalle| Part A Q9         | 9. What is the code to substitute all non-alphanumeric characters with a new line?                       |
 |Yugahang Limbu     | Part A Q6         | 6. What is the total number of ip addresses across all the records?                                      |
+|Gayathri Dasari    | Part A Q2, Q4     | 2. How many records have a word starting with the letter “w”?                                            |
+|                   |                   | 4. How many tweets contains one of these emojis :), :D, ;), :P?                                          |
