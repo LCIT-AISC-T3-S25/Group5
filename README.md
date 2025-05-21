@@ -14,3 +14,4 @@
 | Indraja Badepalli | Part A Q5,7       | 5. How many records contain a decimal number?                                                            |
 |                   |                   | 7. How many records have a new line?                                                                     |
 |Thejaswee Badepalle| Part A Q9         | 9. What is the code to substitute all non-alphanumeric characters with a new line?                       |
+|Yugahang Limbu     | Part A Q6         | 6. What is the total number of ip addresses across all the records?                                      |
