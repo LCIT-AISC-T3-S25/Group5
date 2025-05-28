@@ -7,7 +7,7 @@
 |Adarsh Pednekar
 |Mukul Garg
 |Moksh Jaiswal
-|Gayathri Dasari
+|Gayathri Dasari          |trained and evaluation of SVM model
 |Resti Angelo Cenia
 |Sri Datta Nadipolla      |Implemented 3 Rounds of Empherical tuning for CNN and KNN models
 |Indraja Badepalli        |Implemented LIME for both SVM and DNN models to study local interpretability
