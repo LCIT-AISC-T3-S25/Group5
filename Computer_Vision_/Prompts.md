@@ -10,7 +10,6 @@
 | Mukul Garg|-extract tar file jupyter                                                                                                                                                    |   
 |           |-count files in a folder                                                                                                                                                     |
 |           |-import tarfile                                                                                                                                                              |
-|           | # Replace with your .tar file path                                                                                                                                          |
 |           | tar_path = './Yelp_Photos/yelp_photos.tar'                                                                                                                                  |
 |           | extract_path = './extracted_files/'  # Replace or leave as-is for current folder                                                                                            |
 |           | # Open and extract                                                                                                                                                          |      
