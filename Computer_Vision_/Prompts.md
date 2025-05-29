@@ -24,7 +24,7 @@
 |           | Robust) For each round, show me:AccuracyAUC per classConfusion MatrixClassification Report Save all results to a dictionary (results) and report_dicts.
 |           |-Generate training vs validation loss and accuracy curves for each tuning iteration of my CNN model
 |           |-After each tuning iteration of my CNN, show a confusion matrix on the test set. Analyze improvements in class separability, especially for frequently confused classes
-|Resti Angelo Cenia
+|Resti Angelo Cenia|
       
 |           |Having a DNN Model what is the model tuning plan
                                           |
