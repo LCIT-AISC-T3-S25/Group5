@@ -32,4 +32,7 @@
 |           |- For each tuning round of my CNN, use LIME to explain predictions on the same test image. Compare the explanations visually to show how model interpretability improved
 |Gayathri  |- How to reduce datasize for SVM model training
 |          | - how to convert X_train and Y_train to same datatype?
-|          | -what is prob function and decicion function  and when do we use them?
+|          | -what is prob function and decicion function  and when do we use them?|
+|Yugahang  |  How to implement images processing techniques such as histogram, gaussian blur, and edge detection, with memoryh efficient methods.|
+|           | Split the preprocessed data into trainig, validation and test set for model training and in which format should I export it so that I can provide it to my team members|
+|          |  Also help me to generate readme file that gives the insights of the all the code I have done so that team members can easily understand which data is for which model.|
