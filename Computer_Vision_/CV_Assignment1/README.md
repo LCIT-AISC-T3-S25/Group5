@@ -4,7 +4,7 @@
 |-------------------------|----------------------------------------------------------
 |Gokul Krishna            | Preprocessing was done - did Intensity Thresholds, Histogram Equalization, resizing, Gaussian Blur
 |Yugahang Limbu
-|Adarsh Pednekar
+|Adarsh Pednekar          | Training and evaluation of DNN model.
 |Mukul Garg               | training and evaluation of KNN model.
 |Moksh Jaiswal            | training and evaluation of CNN model.
 |Gayathri Dasari          |trained and evaluation of SVM model
