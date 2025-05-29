@@ -3,7 +3,7 @@
 |Student's Name           | Contribution                                             
 |-------------------------|----------------------------------------------------------
 |Gokul Krishna            | Preprocessing was done - did Intensity Thresholds,
-Histogram Equalization, resizing, Gaussian Blur
+                            Histogram Equalization, resizing, Gaussian Blur
 |Yugahang Limbu
 |Adarsh Pednekar
 |Mukul Garg               | training and evaluation of KNN model.
