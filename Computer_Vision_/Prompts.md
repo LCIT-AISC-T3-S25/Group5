@@ -17,5 +17,5 @@
 |           | # Open and extract                                                                                                                                                          |      
 |           | with tarfile.open(tar_path) as tar:                                                                                                                                         |
 |           |    tar.extractall(path=extract_path)                                                                                                                                        |
-|           |    print(f"Extracted all files to '{extract_path}'")                                                                                                                        |
-|           | extract only 1000 file                                                                                                                                                      | 
+|           |    print(f"Extracted all files to '{extract_path}'")
+              extract only 1000 file                                                                                                                                                     
