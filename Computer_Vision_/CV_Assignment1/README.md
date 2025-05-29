@@ -5,7 +5,7 @@
 |Gokul Krishna            
 |Yugahang Limbu
 |Adarsh Pednekar
-|Mukul Garg
+|Mukul Garg               | training and evaluation of KNN model.
 |Moksh Jaiswal
 |Gayathri Dasari          |trained and evaluation of SVM model
 |Resti Angelo Cenia
