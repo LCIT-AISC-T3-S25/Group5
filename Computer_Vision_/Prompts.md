@@ -29,4 +29,4 @@
 |           |based on this model tuning criteria class separability, lime used, analysis model performance, 3 rounds of empirical tuning                                                                                                                                                     |
 |           |AUC calculation error fix                                                                                                          
 |thejaswee  |- I’ve trained a KNN image classifier using Keras and I want to interpret one of its predictions using LIME.
-|           |- 
+|           |- For each tuning round of my CNN, use LIME to explain predictions on the same test image. Compare the explanations visually to show how model interpretability improved
