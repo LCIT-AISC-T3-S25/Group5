@@ -19,9 +19,9 @@
 |               | extract only 1000 file
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Moksh Jaiswal | - Provide some exception handling suggestions for handling corrupted images.
-                      |
+                          |
 |               | - The code that I provided you earlier runs all models separately but I want to create a function 
                     using which i can run all the models in a single go. 
-                      |
+                          |
 |               | - Provide the code for auc and roc curve.
-                      |
+                          |
