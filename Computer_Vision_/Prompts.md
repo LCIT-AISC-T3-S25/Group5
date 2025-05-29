@@ -17,4 +17,17 @@
 |           |    tar.extractall(path=extract_path)                                                                                                                                        |
 |           |    print(f"Extracted all files to '{extract_path}'")
 |           | extract only 1000 file
-                                                                                                                                                                   
+|Sri Datta N|-I’m using a KNN model on PCA-reduced features for classification. I already have X_train, X_test, y_test, and a best_knn model selected using GridSearchCV.Explain a single  |           |
+|           | prediction using 10 most important PCA components.
+|           |-Visualize the feature importances for the prediction
+|           |-I’ve performed three rounds of model tuning: KNN with StandardScaler and hyperparameter tuningKNN with PCA (50–200 components)KNN with different scalers (Standard, MinMax, 
+|           | Robust) For each round, show me:AccuracyAUC per classConfusion MatrixClassification Report Save all results to a dictionary (results) and report_dicts.
+|           |-Generate training vs validation loss and accuracy curves for each tuning iteration of my CNN model
+|           |-After each tuning iteration of my CNN, show a confusion matrix on the test set. Analyze improvements in class separability, especially for frequently confused classes
+|Resti Angelo Cenia
+                                          |
+|           |Having a DNN Model what is the model tuning plan
+                                          |
+|           |based on this model tuning criteria class separability, lime used, analysis model performance, 3 rounds of empirical tuning
+                                          |
+|           |AUC calculation error fix    |
