@@ -28,3 +28,5 @@
 | Resti Angelo Cenia|Having a DNN Model what is the model tuning plan                                                                                                                                                    |   
 |           |based on this model tuning criteria class separability, lime used, analysis model performance, 3 rounds of empirical tuning                                                                                                                                                     |
 |           |AUC calculation error fix                                                                                                          
+|thejaswee  |- I’ve trained a KNN image classifier using Keras and I want to interpret one of its predictions using LIME.
+|           |- 
