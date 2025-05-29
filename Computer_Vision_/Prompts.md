@@ -30,3 +30,6 @@
 |           |AUC calculation error fix                                                                                                          
 |thejaswee  |- I’ve trained a KNN image classifier using Keras and I want to interpret one of its predictions using LIME.
 |           |- For each tuning round of my CNN, use LIME to explain predictions on the same test image. Compare the explanations visually to show how model interpretability improved
+|Gayathri  |- How to reduce datasize for SVM model training
+            - how to convert X_train and Y_train to same datatype?
+            -what is prob function and decicion function  and when do we use them?
