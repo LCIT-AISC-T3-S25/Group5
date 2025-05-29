@@ -3,7 +3,7 @@
 |Student's Name           | Contribution                                             
 |-------------------------|----------------------------------------------------------
 |Gokul Krishna            | Preprocessing was done - did Intensity Thresholds, Histogram Equalization, resizing, Gaussian Blur
-|Yugahang Limbu
+|Yugahang Limbu            |Performed initial preprocessing tasks including scaling and image resizing, followed by additional image augmentation, and integrated the images with other features. Splitted preprocessed data into training, testing and validation set
 |Adarsh Pednekar          | Training and evaluation of DNN model.
 |Mukul Garg               | training and evaluation of KNN model.
 |Moksh Jaiswal            | training and evaluation of CNN model.
