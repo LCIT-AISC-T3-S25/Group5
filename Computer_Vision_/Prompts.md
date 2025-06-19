@@ -1,63 +1,11 @@
-# Prompts
+## Prompts
 
-
-| Name          | Prompt Description                                                                                                                                                          |
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Indraja       | - I have a deep learning model trained on grayscale images. How can I implement LIME?                                                                                       |
-|               | - Code to print top contributing regions for all classes.                                                                                                                   |
-|               | - Code to implement LIME on an SVM model trained on images.                                                                                                                 |
-|               | - The model is trained on flattened RGB images (224×224×3). How to implement LIME to highlight important regions and display both the original and LIME result side by side.|
-|----------- ---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mukul Garg    |-extract tar file jupyter                                                                                                                                                    |   
-|               |-count files in a folder                                                                                                                                                     |
-|               |-import tarfile                                                                                                                                                              |
-|               | tar_path = './Yelp_Photos/yelp_photos.tar'                                                                                                                                  |
-|               | extract_path = './extracted_files/'  # Replace or leave as-is for current folder                                                                                            |
-|               | # Open and extract                                                                                                                                                          |      
-|               | with tarfile.open(tar_path) as tar:                                                                                                                                         |
-|               |    tar.extractall(path=extract_path)                                                                                                                                        |
-|               |    print(f"Extracted all files to '{extract_path}'")
-|               | extract only 1000 file
-|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Moksh Jaiswal | - Provide some exception handling suggestions for handling corrupted images|
-|               | - The code that I provided you earlier runs all models separately but I want to create a function using which i can run all the models in a single go.|
-|               | - Provide the code for auc and roc curve.|
-
-
-| Name      | Prompt Description                                                                                                                                                          |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Indraja   | - I have a deep learning model trained on grayscale images. How can I implement LIME?                                                                                       |
-|           | - Code to print top contributing regions for all classes.                                                                                                                   |
-|           | - Code to implement LIME on an SVM model trained on images.                                                                                                                 |
-|           | - The model is trained on flattened RGB images (224×224×3). How to implement LIME to highlight important regions and display both the original and LIME result side by side.|
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mukul Garg|-extract tar file jupyter                                                                                                                                                    |   
-|           |-count files in a folder                                                                                                                                                     |
-|           |-import tarfile                                                                                                                                                              |
-|           | tar_path = './Yelp_Photos/yelp_photos.tar'                                                                                                                                  |
-|           | extract_path = './extracted_files/'  # Replace or leave as-is for current folder                                                                                            |
-|           | # Open and extract                                                                                                                                                          |      
-|           | with tarfile.open(tar_path) as tar:                                                                                                                                         |
-|           |    tar.extractall(path=extract_path)                                                                                                                                        |
-|           |    print(f"Extracted all files to '{extract_path}'")
-|           | extract only 1000 file
-|Sri Datta N|-I’m using a KNN model on PCA-reduced features for classification. I already have X_train, X_test, y_test, and a best_knn model selected using GridSearchCV.Explain a single  |           |
-|           | prediction using 10 most important PCA components.
-|           |-Visualize the feature importances for the prediction
-|           |-I’ve performed three rounds of model tuning: KNN with StandardScaler and hyperparameter tuningKNN with PCA (50–200 components)KNN with different scalers (Standard, MinMax, 
-|           | Robust) For each round, show me:AccuracyAUC per classConfusion MatrixClassification Report Save all results to a dictionary (results) and report_dicts.
-|           |-Generate training vs validation loss and accuracy curves for each tuning iteration of my CNN model
-|           |-After each tuning iteration of my CNN, show a confusion matrix on the test set. Analyze improvements in class separability, especially for frequently confused classes
-------------------------------------------|
-| Resti Angelo Cenia|Having a DNN Model what is the model tuning plan                                                                                                                                                    |   
-|           |based on this model tuning criteria class separability, lime used, analysis model performance, 3 rounds of empirical tuning                                                                                                                                                     |
-|           |AUC calculation error fix                                                                                                          
-|thejaswee  |- I’ve trained a KNN image classifier using Keras and I want to interpret one of its predictions using LIME.
-|           |- For each tuning round of my CNN, use LIME to explain predictions on the same test image. Compare the explanations visually to show how model interpretability improved
-|Gayathri  |- How to reduce datasize for SVM model training
-|          | - how to convert X_train and Y_train to same datatype?
-|          | -what is prob function and decicion function  and when do we use them?|
-|Yugahang  |  How to implement images processing techniques such as histogram, gaussian blur, and edge detection, with memoryh efficient methods.|
-|           | Split the preprocessed data into trainig, validation and test set for model training and in which format should I export it so that I can provide it to my team members|
-|          |  Also help me to generate readme file that gives the insights of the all the code I have done so that team members can easily understand which data is for which model.|
-
+| Name              | Prompt Description                                                                                                                                                           |
+| Indraja           | - I have a deep learning model trained on grayscale images. How can I implement LIME?<br>- Code to print top contributing regions for all classes.<br>- Code to implement LIME on an SVM model trained on images.<br>- The model is trained on flattened RGB images (224×224×3). How to implement LIME to highlight important regions and display both the original and LIME result side by side. |
+| Mukul Garg        | - Extract tar file in Jupyter<br>- Count files in a folder<br>- Import tarfile<br>- Extract only 1000 files from a tar archive located at `./Yelp_Photos/yelp_photos.tar` to `./extracted_files/` |
+| Moksh Jaiswal     | - Provide exception handling for corrupted images<br>- Create a function to run all models in a single go<br>- Code for AUC and ROC curve                                    |
+| Sri Datta N       | - Use KNN on PCA-reduced features; explain a prediction using top 10 PCA components<br>- Visualize feature importances<br>- Summarize tuning rounds (accuracy, AUC, confusion matrix, classification report)<br>- Plot training vs validation curves for CNN tuning<br>- Confusion matrix analysis after each CNN tuning round |
+| Resti Angelo Cenia| - Tuning plan for a DNN model based on class separability, LIME, model performance, and 3 rounds of empirical tuning<br>- Fix AUC calculation error                          |
+| Thejaswee         | - Interpret a KNN image classifier using LIME<br>- Use LIME across CNN tuning rounds on same test image to compare interpretability improvements                              |
+| Gayathri          | - Reduce data size for SVM training<br>- Convert `X_train` and `y_train` to same datatype<br>- Explain `prob` vs `decision_function` in SVM                                   |
+| Yugahang          | - Implement efficient image processing (histogram, Gaussian blur, edge detection)<br>- Split data into training, validation, and test sets<br>- Export format for sharing with team<br>- Generate a README with insights and code explanation for team members                                           |
