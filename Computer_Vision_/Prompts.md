@@ -1,11 +1,16 @@
-# Prompts
+# 💡 Prompt Reference Table
 
-| Name              | Prompt Description                                                                                                                                                           |
-| Indraja           | - I have a deep learning model trained on grayscale images. How can I implement LIME?<br>- Code to print top contributing regions for all classes.<br>- Code to implement LIME on an SVM model trained on images.<br>- The model is trained on flattened RGB images (224×224×3). How to implement LIME to highlight important regions and display both the original and LIME result side by side. |
-| Mukul Garg        | - Extract tar file in Jupyter<br>- Count files in a folder<br>- Import tarfile<br>- Extract only 1000 files from a tar archive located at `./Yelp_Photos/yelp_photos.tar` to `./extracted_files/` |
-| Moksh Jaiswal     | - Provide exception handling for corrupted images<br>- Create a function to run all models in a single go<br>- Code for AUC and ROC curve                                    |
-| Sri Datta N       | - Use KNN on PCA-reduced features; explain a prediction using top 10 PCA components<br>- Visualize feature importances<br>- Summarize tuning rounds (accuracy, AUC, confusion matrix, classification report)<br>- Plot training vs validation curves for CNN tuning<br>- Confusion matrix analysis after each CNN tuning round |
-| Resti Angelo Cenia| - Tuning plan for a DNN model based on class separability, LIME, model performance, and 3 rounds of empirical tuning<br>- Fix AUC calculation error                          |
-| Thejaswee         | - Interpret a KNN image classifier using LIME<br>- Use LIME across CNN tuning rounds on same test image to compare interpretability improvements                              |
-| Gayathri          | - Reduce data size for SVM training<br>- Convert `X_train` and `y_train` to same datatype<br>- Explain `prob` vs `decision_function` in SVM                                   |
-| Yugahang          | - Implement efficient image processing (histogram, Gaussian blur, edge detection)<br>- Split data into training, validation, and test sets<br>- Export format for sharing with team<br>- Generate a README with insights and code explanation for team members                                           |
+This document contains a categorized list of prompt requirements for various contributors and topics. It is formatted for readability and ease of access in GitHub.
+
+## 📋 Prompts by Contributor
+
+| **Name**              | **Prompt Description**                                                                                                                                                           |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Indraja**           | - Implement LIME for a model trained on grayscale images<br>- Print top contributing regions for all classes<br>- Implement LIME for an SVM image model<br>- Apply LIME to a model trained on flattened RGB images (224×224×3), showing original and highlighted images side by side |
+| **Mukul Garg**        | - Extract `.tar` file in Jupyter<br>- Count files in a folder<br>- Use `tarfile` module<br>- Extract only 1000 files from `./Yelp_Photos/yelp_photos.tar` to `./extracted_files/` |
+| **Moksh Jaiswal**     | - Add exception handling for corrupted images<br>- Create a unified function to run all models<br>- Provide AUC and ROC curve code                                               |
+| **Sri Datta N**       | - Explain a KNN prediction using top 10 PCA components<br>- Visualize prediction feature importances<br>- Summarize tuning results (Accuracy, AUC, Confusion Matrix, Classification Report)<br>- Plot training vs validation metrics for CNN<br>- Show confusion matrix per CNN tuning round |
+| **Resti Angelo Cenia**| - Model tuning plan for DNN using LIME, class separability, model performance, and empirical tuning<br>- Fix AUC calculation error                                               |
+| **Thejaswee**         | - Interpret KNN classifier predictions using LIME<br>- Compare LIME explanations for same test image across CNN tuning iterations                                                |
+| **Gayathri**          | - Reduce dataset size for SVM<br>- Convert `X_train` and `Y_train` to same datatype<br>- Explain difference between `prob` and `decision_function` in SVM                        |
+| **Yugahang**          | - Use memory-efficient image processing (histogram, Gaussian blur, edge detection)<br>- Split preprocessed data into training/validation/test sets<br>- Choose suitable export format for team sharing<br>- Generate a README explaining data usage for each model                                         |
