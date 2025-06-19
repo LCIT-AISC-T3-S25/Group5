@@ -23,7 +23,8 @@ try:
 except Exception as e:
     print(f"Error loading model or files: {str(e)}")
     raise
-
+# This is a stateless REST API that uses JSON and does not rely on session cookies.
+# Therefore, CSRF protection is not applicable or necessary in this context.
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
