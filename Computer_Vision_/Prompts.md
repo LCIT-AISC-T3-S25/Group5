@@ -1,4 +1,4 @@
-## Prompts
+# Prompts
 
 | Name              | Prompt Description                                                                                                                                                           |
 | Indraja           | - I have a deep learning model trained on grayscale images. How can I implement LIME?<br>- Code to print top contributing regions for all classes.<br>- Code to implement LIME on an SVM model trained on images.<br>- The model is trained on flattened RGB images (224×224×3). How to implement LIME to highlight important regions and display both the original and LIME result side by side. |
