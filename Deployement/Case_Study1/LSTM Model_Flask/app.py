@@ -9,7 +9,7 @@ from waitress import serve
 
 # Load model and supporting files
 try:
-    model = tf.keras.models.load_model("word2vec_lstm_SavedModel", compile=False)  # ✅ .h5 format
+    model = tf.keras.models.load_model("word2vec_lstm_SavedModel", compile=False)  
 
     # Load tokenizer from JSON string
     with open("tokenizer.json") as f:
@@ -28,7 +28,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def health_check():
-    return jsonify({"status": "healthy", "model": "Bidirectional GRU Sentiment Analysis"})
+    return jsonify({"status": "healthy", "model": "Unidirectional LSTM Sentiment Analysis"})
 
 @app.route("/predict", methods=["POST"])
 def predict():
