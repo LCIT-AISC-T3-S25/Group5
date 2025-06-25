@@ -5,7 +5,6 @@ import torch
 import io
 from model.cnn_model import SimpleCNN  # Adjust if your model is different
 
-# ✅ This is the key line — FastAPI instance
 app = FastAPI()
 
 # Load model
