@@ -1,0 +1,13 @@
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+torch>=2.1
+torchvision
+nltk
+gensim
+tqdm
+spacy
+emoji
+lime
