@@ -1,0 +1,5 @@
+{
+  "host": "0.0.0.0",
+  "port": 8002,
+  "auth_token": "Transformer_vm_access_token_123"
+}
