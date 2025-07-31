@@ -1,0 +1,10 @@
+{
+  "img_size": 64,
+  "timesteps": 1000,
+  "embedding_dim": 128,
+  "labels": ["drink", "food", "inside", "outside", "extra"],
+  "host": "0.0.0.0",
+  "port": 8003,
+  "output_dir": "outputs",
+  "diffusion_endpoint": "/generate"
+}
