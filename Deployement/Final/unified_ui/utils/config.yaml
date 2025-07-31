@@ -1,0 +1,13 @@
+# utils/config.yaml
+
+vm_ip: "http://10.111.66.185"
+
+ports:
+  transformer: 8002
+  dcgan: 8000
+  ddim: 8003
+  rag: 8004
+
+tokens:
+  dcgan: "DCGAN_vm_access_token_123"
+  transformer: "Transformer_vm_access_token_123"
