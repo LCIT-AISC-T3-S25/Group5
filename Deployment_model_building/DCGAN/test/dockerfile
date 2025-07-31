@@ -1,0 +1,20 @@
+# Use a slim Python base image
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system tools (jq for reading config)
+RUN apt-get update && apt-get install -y jq && rm -rf /var/lib/apt/lists/*
+
+# Copy code and model into image
+COPY . .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose the port defined in config.json
+EXPOSE 8001
+
+# Dynamically read host/port from config.json
+CMD ["sh", "-c", "HOST=$(jq -r .host config.json) && PORT=$(jq -r .port config.json) && echo Running on $HOST:$PORT && python app.py"]
