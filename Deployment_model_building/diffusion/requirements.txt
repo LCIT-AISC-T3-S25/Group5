@@ -1,0 +1,11 @@
+torch==2.2.2
+torchvision
+torchaudio
+pillow
+matplotlib
+flask
+transformers
+pandas
+scikit-learn
+clip @ git+https://github.com/openai/CLIP.git
+torchmetrics
